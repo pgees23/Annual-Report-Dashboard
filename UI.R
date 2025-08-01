@@ -1,7 +1,6 @@
 ## Creating an R Shiny dashboard of SMSR Annual Report ##
 ## User Interface Script
 ## By George Addo Opoku-Pare
-## and Rita Nogueira
 
 # dashboard header
 header <- dashboardHeader(title = "Scottish Mulitple Sclerosis Register: Annual National Report 2025",
@@ -98,7 +97,7 @@ body <- dashboardBody(
 rm(list=ls(pattern="d_"))
 
 
-#RN - 26/03/2025 - added to deploy dashboard into a password protected site.
+# - 26/03/2025 - added to deploy dashboard into a password protected site.
 # Password Protection---------------------------------------
 # KEEP IF PUBLISHING WITH PASSWORD PROTECTIONS
 # COMMENT OUT IF PUBLISHING LIVE WITH NO PASSWORD PROTECTION
